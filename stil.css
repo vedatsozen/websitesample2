@@ -1,0 +1,139 @@
+* {
+
+margin: 0px;
+padding: 0px;
+
+}
+
+body {
+
+background-image: url("https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg?cs=srgb&dl=pexels-toni-cuenca-585752.jpg&fm=jpg");
+background-size: 100% 100%;
+background-repeat: no repeat;
+background-attachment: fixed;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+
+}
+
+nav {
+
+height: 50px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+ul {
+    margin: auto;
+    width: 500px;
+    word-spacing: 10px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    
+}
+
+li {
+
+display: inline-block;
+padding: 10px;
+color: crimson;
+border-radius: 3px;
+
+}
+
+li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+header {
+
+margin: auto;
+height: 50px;
+width: fit-content;
+color: white;
+margin-top: 150px;
+
+}
+
+
+
+span {
+    color: crimson;
+}
+
+h1 {
+
+    font-size: 60px;
+    transform: rotate(5deg);
+
+}
+
+p {
+    font-size:30px ;
+}
+
+#altlinks {
+
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 200px;
+}
+
+a { 
+
+
+display: block;
+font-size: 20px;
+display: block;
+padding:5px;
+background-color: crimson;
+color: white;
+width: fit-content;
+height: fit-content;
+text-decoration: none;
+border-radius: 3px;
+box-sizing: border-box;
+
+
+
+
+}
+
+a:hover {
+
+background-color: white;
+color: crimson;
+transition: ease-in 250ms;
+cursor: pointer;
+
+
+}
+
+
+
+p {
+
+
+animation:move 500ms infinite ease-in-out;
+
+
+}
+
+@keyframes move {
+
+0% { transform: translateY(0px); }
+
+100% { transform: translateY(10px); }
+
+}
